@@ -20,7 +20,7 @@ const Home = () => {
             amount: order.amount,
             currency: "INR",
             name: "Razorpay payment",
-            description: "Tutorial of RazorPay",
+            description: "RazorPay",
             image: "",
             order_id: order.id,
             callback_url: "http://localhost:4000/api/paymentverification",
